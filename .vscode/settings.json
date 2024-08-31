@@ -6,12 +6,12 @@
   "javascript.suggest.autoImports": true,
   "explorer.compactFolders": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.organizeImports": true
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
   },
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
+  }
 }
